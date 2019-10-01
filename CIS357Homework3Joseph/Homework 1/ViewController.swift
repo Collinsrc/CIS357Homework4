@@ -37,6 +37,7 @@ class ViewController: UIViewController, SettingsViewControllerDelegate{
         
         self.FromField.delegate = self
         self.ToField.delegate = self
+        self.view.backgroundColor = BACKGROUND_COLOR
         
     }
     func settingsChanged(fromUnits: String, toUnits: String) {
