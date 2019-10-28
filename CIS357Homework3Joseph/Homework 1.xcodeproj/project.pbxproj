@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0127DA73233A65D20036C484 /* UnitsAndModes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127DA72233A65D20036C484 /* UnitsAndModes.swift */; };
 		0127DA77233B1BB10036C484 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127DA76233B1BB10036C484 /* SettingsViewController.swift */; };
+		330B7D7D23675A1A009CD3C8 /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B7D7C23675A1A009CD3C8 /* Conversion.swift */; };
 		3355D3AF23329E9600ADA1B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3355D3AE23329E9600ADA1B7 /* AppDelegate.swift */; };
 		3355D3B123329E9600ADA1B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3355D3B023329E9600ADA1B7 /* ViewController.swift */; };
 		3355D3B423329E9600ADA1B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3355D3B223329E9600ADA1B7 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		0127DA72233A65D20036C484 /* UnitsAndModes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitsAndModes.swift; sourceTree = "<group>"; };
 		0127DA76233B1BB10036C484 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		330B7D7C23675A1A009CD3C8 /* Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
 		3355D3AB23329E9600ADA1B7 /* Homework 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3355D3AE23329E9600ADA1B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3355D3B023329E9600ADA1B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				33890C002343ED7E00088A19 /* ConversionCalcTextField.swift */,
 				33890C022343F13000088A19 /* ConversionCalcLabel.swift */,
 				33890C042343F1A600088A19 /* ConversionCalcButton.swift */,
+				330B7D7C23675A1A009CD3C8 /* Conversion.swift */,
 			);
 			path = "Homework 1";
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				33890C012343ED7E00088A19 /* ConversionCalcTextField.swift in Sources */,
 				0127DA73233A65D20036C484 /* UnitsAndModes.swift in Sources */,
 				33890C052343F1A600088A19 /* ConversionCalcButton.swift in Sources */,
+				330B7D7D23675A1A009CD3C8 /* Conversion.swift in Sources */,
 				3355D3DF2332A47400ADA1B7 /* DecimalMinusTextField.swift in Sources */,
 				33890C032343F13000088A19 /* ConversionCalcLabel.swift in Sources */,
 				3355D3B123329E9600ADA1B7 /* ViewController.swift in Sources */,

@@ -22,6 +22,7 @@ class ViewController: UIViewController, SettingsViewControllerDelegate{
     var isDistance = true
     var FromUnitsDefault: String = ""
     var ToUnitsDefault: String = ""
+    var entries: [Conversion] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,7 +72,9 @@ class ViewController: UIViewController, SettingsViewControllerDelegate{
     }
     
     @IBAction func CalculateButtonTapped(_ sender: UIButton) {
-        self.calculate()
+        if(ValidateFields() == true){
+            self.calculate()
+        }
     }
     
     @IBAction func ClearButtonTapped(_ sender: UIButton) {
@@ -81,8 +84,11 @@ class ViewController: UIViewController, SettingsViewControllerDelegate{
     
     
     func ValidateFields() -> Bool {
-        if self.FromField.text != "" || self.ToField.text != ""{
-            return true;
+        if self.FromField.text != "" || self.ToField.text != "" {
+            if((CharacterSet.decimalDigits.isSuperset(of: CharacterSet(charactersIn: self.FromField.text!))) && (CharacterSet.decimalDigits.isSuperset(of: CharacterSet(charactersIn: self.ToField.text!)))){
+                return true;
+            }
+            return false;
         }
         else{
             return false
